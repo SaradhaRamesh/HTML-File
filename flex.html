@@ -1,0 +1,39 @@
+<htm>
+    <head>
+    <style>
+        .parent{
+            width: 100%;
+            background-color: burlywood;
+            display: flex;
+            flex-direction: row;
+            color: black;
+            text-align: center;
+        }
+        .child1{
+            background-color: cadetblue;
+            flex: 30%;
+            font-size: 3em;
+            padding: 50px;
+        }
+        .child2{
+            background-color: palevioletred;
+            flex: 70%;
+            font-size: 3em;
+            padding: 50px;
+        }
+        @media (max-width:800px) {
+            .parent{
+                flex-direction: column;
+            }            
+        }
+    </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">child1</div>
+            <div class="child2">child2</div>
+        </div>
+    </body>
+    </html>
+
+
