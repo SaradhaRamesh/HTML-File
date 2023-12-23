@@ -1,0 +1,23 @@
+.container {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 10px;
+  padding: 20px;
+}
+
+.container img {
+  width: 300px;
+  height: 300px;
+  display: block; /* Remove any extra space below the image */
+}
+
+.text-block {
+  position: relative; /* Change to relative for positioning within the grid item */
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 0, 64, 0.4); /* Use rgba for transparency */
+  padding: 10px;
+}
+
